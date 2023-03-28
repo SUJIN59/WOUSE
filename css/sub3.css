@@ -1,0 +1,341 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    min-width: 1320px;
+    font-family: 'Pretendard-Regular';
+    color: black;
+}
+
+/* 헤더 시작 */
+.top {
+    width: 100%;
+    height: 40px;
+    background-color: #952b28;
+    color: white;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.top p {
+    position: absolute;
+    left: 43.3%;
+    top: 30%;
+
+}
+
+.top a {
+    color: white;
+}
+
+.top img {
+    width: 8px;
+}
+
+#left {
+    position: absolute;
+    left: 3%;
+    top: 35%;
+
+}
+
+#right {
+    position: absolute;
+    right: 3%;
+    top: 35%;
+}
+
+/* 내비게이션 */
+.nav {
+    width: 100%;
+    height: 100px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.nav img {
+    width: 220px;
+
+
+}
+
+.nav ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+
+}
+
+.nav li:hover a {
+    color: #952b28;
+
+}
+
+.right {
+    position: absolute;
+    left: 2%;
+}
+
+.right a {
+    margin-right: 40px;
+
+}
+
+.left {
+    position: absolute;
+    right: 2%;
+}
+
+.left a {
+    margin-left: 40px;
+}
+
+
+
+
+
+
+
+
+/* 배너 */
+.banner {
+    width: 100%;
+    height: 800px;
+    background: url(../images/sub3/banner_bg.jpg) no-repeat 50% 0;
+    background-size: cover;
+}
+
+.banner img {
+    display: block;
+    margin: auto;
+    padding: 400px 0;
+
+}
+
+section {
+    margin: auto;
+    width: 1320px;
+    height: 5200px;
+    background: url(../images/sub3/box_line.png) no-repeat center center;
+    text-align: center;
+}
+
+.how {
+    margin-top: 200px;
+}
+
+.box_icon {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+}
+
+.box_icon p {
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.icon1 {
+    padding: 100px 50px;
+}
+
+.icon2 {
+    padding: 100px 50px;
+}
+
+.icon3 {
+    padding: 100px 50px;
+}
+/* 베네핏 */
+.benefit {
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    justify-content: center;
+    margin: 130px 0;
+}
+
+.benefit img {
+    margin-right: 80px;
+}
+
+.bf_text {
+    margin-top: 80px;
+}
+
+.bf_text img {
+    margin-bottom: 30px;
+}
+
+.bf_text h4 {
+    text-align: start;
+    font-size: 24px;
+    margin-bottom: 15px;
+    line-height: 35px;
+}
+
+.bf_text h5 {
+    text-align: start;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+
+.even .bf_text {
+    margin-right: 40px;
+    padding-left: 100px;
+}
+
+
+/* 구독박스 */
+.number {
+    margin: 30px 270px -10px 30px;
+}
+
+
+.sub ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+   margin: 100px auto 200px;
+   width: 1320px;
+}
+
+.sub ul li {
+    width: 404px;
+    height: 608px;
+    background: url(../images/sub3/box_bg.jpg) no-repeat;
+    text-align: center;
+    color: white;
+    font-family: 'G마켓 산스 TTF light';
+    margin-right: 30px;
+    position: relative;
+
+}
+
+.sub ul li h1{
+    margin-top: 40px;
+}
+.sub ul li h1 span {
+    font-family: 'G마켓 산스 TTF bold';
+}
+   
+.hover{
+    font-family: 'pretendard';
+    width: 100%;
+    height:100%;
+    background: url(../images/sub3/box_hover.jpg) no-repeat;
+    text-align: center;
+    color: black;
+    margin-right: 30px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0;
+}
+.hover h6{
+    font-size: 20px;
+    margin-top: 55px;
+    margin-bottom: 20px;
+}
+.hover p{
+    line-height: 30px;
+    font-size: 18px;
+    font-weight: 300;
+}
+.hover a{
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    font-size: 24px;
+}
+
+.sub li:hover .hover{
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+/* 스크롤 꾸미기 */
+.scroll {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+}
+
+/* 푸터 */
+footer {
+    width: 100%;
+    background: url(../images/main/footer/footer_bg.png) no-repeat 50% 0;
+    background-size: cover;
+    color: white;
+    font-family: 'G마켓 산스 TTF light';
+}
+
+footer ul {
+    width: 1320px;
+    margin: auto;
+    padding: 100px 0 80px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer p {
+    margin-top: 50px;
+}
+
+.icon {
+    margin: 30px 0 0;
+
+}
+
+.icon img {
+    margin-right: 30px;
+    opacity: 0.7;
+}
+
+.icon a:hover img {
+    opacity: 1;
+}

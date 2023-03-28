@@ -1,0 +1,297 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    min-width: 1320px;
+    font-family: 'Pretendard-Regular';
+    color: black;
+}
+
+/* 헤더 시작 */
+.top {
+    width: 100%;
+    height: 40px;
+    background-color: #952b28;
+    color: white;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.top p {
+    position: absolute;
+    left: 43.3%;
+    top: 30%;
+
+}
+
+.top a {
+    color: white;
+}
+
+.top img {
+    width: 8px;
+}
+
+#left {
+    position: absolute;
+    left: 3%;
+    top: 35%;
+
+}
+
+#right {
+    position: absolute;
+    right: 3%;
+    top: 35%;
+}
+
+/* 내비게이션 */
+.nav {
+    width: 100%;
+    height: 100px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+}
+
+.nav img {
+    width: 220px;
+
+
+}
+
+.nav ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+
+}
+
+.nav li:hover a {
+    color: #952b28;
+
+}
+
+.right {
+    position: absolute;
+    left: 2%;
+}
+
+.right a {
+    margin-right: 40px;
+
+}
+
+.left {
+    position: absolute;
+    right: 2%;
+}
+
+.left a {
+    margin-left: 40px;
+}
+/* 배너 */
+.banner {
+    width: 100%;
+    position: relative;
+}
+
+.banner video {
+    display: block;
+    width: 100%;
+    /* 동영상 높이 800으로 편집하기 */
+}
+
+.banner_text {
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+/* 체험하기 */
+.visit{
+    width: 1320px;
+    margin: 200px auto;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+    justify-content: center;
+    flex-wrap: wrap;  
+}
+.visit li{
+    width: 550px;
+    text-align: center;
+    padding: 50px 0 70px;
+    margin: 0 20px 20px 0;
+    box-shadow: 0 1px 2px rgba(0,0,0,0.07), 
+                0 2px 4px rgba(0,0,0,0.07), 
+                0 4px 8px rgba(0,0,0,0.07), 
+                0 8px 16px rgba(0,0,0,0.07),
+                0 16px 32px rgba(0,0,0,0.07), 
+                0 32px 64px rgba(0,0,0,0.07);
+}
+.visit li h2{
+    margin-top: 30px;
+    font-family: 'Kim jung chul Gothic';
+    font-weight: 500;
+    font-size: 25px;
+    color: #952b28;
+}
+.visit li h3{
+    font-family: 'Kim jung chul Gothic';
+    font-weight: 400;
+    font-size: 18px;
+}
+.visit li p{
+    margin-top: 30px;
+    line-height: 30px;
+}
+.visit li h4{
+    margin: 40px 0;
+    color: #952b28;
+    font-weight: 600;
+    line-height: 25px;
+}
+.visit li a{
+    padding: 15px 50px;
+    background-color: #952b28;
+    color: white;
+}
+
+.visit li a:hover{
+    background-color: white;
+    color: #952b28;
+    border: #952b28 solid 1px;
+}
+/* 오시는길 */
+h1{
+    padding-bottom: 20px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-family: 'Kim jung chul Gothic';
+    font-weight: 500;
+    font-size: 40px;
+    background: url(../images/sub4/line.jpg) no-repeat 50% 100%;
+}
+#road{
+    margin-top: 50px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;  
+    justify-content: center;
+    font-family: "Leferi Point Type Special"
+}
+#road p{
+padding: 70px 50px;
+text-align: center;
+}
+.road1{
+    width: 275px;
+    height: 282px;
+    background: url(../images/sub4/road1.png) no-repeat;
+    color: white;
+    font-size: 20px;
+}
+.road2{
+    width: 275px;
+    height: 282px;
+    background: url(../images/sub4/road2.png) no-repeat;
+    color: white;
+    font-size: 20px;
+    margin: 0 30px;
+}
+.road3{
+    width: 275px;
+    height: 282px;
+    background: url(../images/sub4/road3.png) no-repeat;
+    color: white;
+    font-size: 20px;
+}
+.road3 span{
+    font-size: 18px;
+}
+/* 스크롤 꾸미기 */
+.scroll {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+}
+.map{
+width: 1320px;
+    margin: 50px auto 200px;
+}
+
+/* 푸터 */
+footer {
+    width: 100%;
+    background: url(../images/main/footer/footer_bg.png) no-repeat 50% 0;
+    background-size: cover;
+    color: white;
+    font-family: 'G마켓 산스 TTF light';
+}
+
+footer ul {
+    width: 1320px;
+    margin: auto;
+    padding: 100px 0 80px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer p {
+    margin-top: 50px;
+}
+
+.icon {
+    margin: 30px 0 0;
+
+}
+
+.icon img {
+    margin-right: 30px;
+    opacity: 0.7;
+}
+
+.icon a:hover img {
+    opacity: 1;
+}

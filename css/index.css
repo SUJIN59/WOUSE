@@ -1,0 +1,363 @@
+@font-face {
+    font-family: 'Pretendard-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/Project-Noonnu/noonfonts_2107@1.1/Pretendard-Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    min-width: 1320px;
+    font-family: 'Pretendard-Regular';
+    color: black;
+
+}
+
+/* 헤더 시작 */
+.top {
+    width: 100%;
+    height: 40px;
+    background-color: #952b28;
+    color: white;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.top p {
+    position: absolute;
+    left: 43.3%;
+    top: 30%;
+
+}
+
+.top a {
+    color: white;
+}
+
+.top img {
+    width: 8px;
+}
+
+#left {
+    position: absolute;
+    left: 3%;
+    top: 35%;
+
+}
+
+#right {
+    position: absolute;
+    right: 3%;
+    top: 35%;
+}
+
+/* 내비게이션 */
+.nav {
+    width: 100%;
+    height: 100px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1px;
+
+}
+
+.nav img {
+    width: 220px;
+
+
+}
+
+.nav ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+
+
+}
+
+.nav li:hover a {
+    color: #952b28;
+
+}
+
+.right {
+    position: absolute;
+    left: 2%;
+}
+
+.right a {
+    margin-right: 40px;
+
+}
+
+.left {
+    position: absolute;
+    right: 2%;
+}
+
+.left a {
+    margin-left: 40px;
+}
+
+/* 메인배너 시작 */
+.main {
+    position: relative;
+}
+
+
+.main a {
+    position: absolute;
+    border: solid 1px black;
+    padding: 15px 40px;
+    color: black;
+    top: 62%;
+    left: 15%;
+    font-size: 16px;
+    background: linear-gradient(to right, black 50%, white 50%) 100% 0;
+    background-size: 200%;
+    transition: all 1s;
+}
+
+.main a:hover {
+    background-position-x: 0%;
+    color: white;
+}
+
+/* section1 와인메이커 시작 */
+.maker {
+    width: 1320px;
+    margin: 100px auto 0;
+    position: relative;
+}
+
+.maker a {
+    display: inline-block;
+    padding: 20px 30px;
+    color: #952b28;
+    position: absolute;
+    top: 70%;
+    left: 72.3%;
+    background: linear-gradient(to right, black 50%, white 50%) 100% 0;
+    background-size: 200%;
+    transition: all 1s;
+
+}
+
+.maker a:hover {
+    background-position-x: 0%;
+    color: white;
+}
+
+/* section2 대표와인 소개 시작 */
+.wine {
+    width: 1320px;
+    margin: 80px auto 0;
+}
+
+.wine p {
+    margin-top: 10px;
+}
+
+.wine ul {
+    margin-top: 100px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.wine ul li {
+    position: relative;
+}
+
+.wine ul li a {
+    position: absolute;
+    z-index: 2;
+    left: 0%;
+}
+
+.wine ul li a img {
+    opacity: 0;
+}
+
+.wine ul li:hover a img {
+    opacity: 1;
+}
+
+/* section3 체험하기 시작 */
+.visit_banner {
+    display: block;
+    width: 100%;
+    margin-top: 80px;
+    overflow: hidden;
+}
+
+.visit {
+    width: 1320px;
+    margin: 30px auto 0;
+    overflow: hidden;
+
+
+}
+
+.visit ul {
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: url(../images/main/4.visit/visit_bg.png) no-repeat 50% 75px;
+}
+
+.visit li {
+    padding-left: 26px;
+    margin-top: 80px;
+}
+
+.visit h4 {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.visit p {
+    margin-top: 15px;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+/* section4 구독박스 시작 */
+.box {
+    width: 1320px;
+    margin: 100px auto;
+    background: url(../images/main/5.box/box_bg.png) no-repeat 0 0;
+    background-size: 100%;
+    padding: 150px 100px 300px;
+    box-sizing: border-box;
+}
+
+.box .red {
+    display: block;
+    margin: auto;
+    padding: 80px 0 50px;
+
+}
+
+.box ul {
+    margin: 30px 0 80px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.box li {
+    width: 543px;
+    text-align: center;
+    line-height: 22px;
+    padding: 50px 0;
+}
+
+.box .text {
+    width: 250px;
+    padding-top: 50px;
+}
+
+.box h2 {
+    font-family: 'G마켓 산스 TTF light';
+    color: #952b28;
+    padding-top: 20px;
+    font-size: 24px;
+}
+
+.box ul p {
+    font-family: 'G마켓 산스 TTF light';
+    padding-top: 20px;
+    font-size: 18px;
+
+}
+
+
+.box a {
+    display: block;
+    margin: 20px auto;
+    width: 100px;
+    padding: 10px 20px;
+    background-color: #952b28;
+    color: white;
+}
+
+.box a:hover {
+    border: solid 1px #952b28;
+    background-color: white;
+    color: #952b28;
+}
+
+/* 푸터 */
+footer {
+    width: 100%;
+    background: url(../images/main/footer/footer_bg.png) no-repeat 50% 0;
+    background-size: cover;
+    color: white;
+    font-family: 'G마켓 산스 TTF light';
+}
+
+footer ul {
+    width: 1320px;
+    margin: auto;
+    padding: 100px 0 80px;
+    display: -moz-box;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+footer p {
+    margin-top: 50px;
+}
+
+.icon {
+    margin: 30px 0 0;
+
+}
+
+.icon img {
+    margin-right: 30px;
+    opacity: 0.7;
+}
+
+.icon a:hover img {
+    opacity: 1;
+}
