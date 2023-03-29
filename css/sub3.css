@@ -292,6 +292,7 @@ section {
     transition: all 0.5s;
 }
 
+
 /* 스크롤 꾸미기 */
 .scroll {
     position: fixed;
@@ -299,6 +300,7 @@ section {
     right: 50px;
     display: none;
 }
+
 
 /* 푸터 */
 footer {

@@ -244,6 +244,7 @@ text-align: center;
 .road3 span{
     font-size: 18px;
 }
+
 /* 스크롤 꾸미기 */
 .scroll {
     position: fixed;
@@ -251,6 +252,7 @@ text-align: center;
     right: 50px;
     display: none;
 }
+
 .map{
 width: 1320px;
     margin: 50px auto 200px;

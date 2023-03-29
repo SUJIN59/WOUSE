@@ -322,6 +322,14 @@ body {
     color: #952b28;
 }
 
+/* 스크롤 꾸미기 */
+.scroll {
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: none;
+}
+
 /* 푸터 */
 footer {
     width: 100%;
