@@ -223,6 +223,7 @@ body {
 }
 
 .wine .box1 a {
+    display: inline-block;
     padding: 15px 70px;
     background-color: #ae2e29;
     font-size: 20px;
@@ -240,6 +241,7 @@ body {
 }
 
 .wine .box2 a {
+    display: inline-block;
     padding: 15px 70px;
     background-color: #088144;
     font-size: 20px;
@@ -253,10 +255,12 @@ body {
 
 /* 와인3 */
 .wine .box3 {
+    
     margin-top: 50px;
 }
 
 .wine .box3 a {
+    display: inline-block;
     padding: 15px 70px;
     background-color: #670a7e;
     font-size: 20px;
@@ -274,6 +278,7 @@ body {
 }
 
 .wine .box4 a {
+    display: inline-block;
     padding: 15px 70px;
     background-color: #e6763a;
     font-size: 20px;
@@ -291,6 +296,7 @@ body {
 }
 
 .wine .box5 a {
+    display: inline-block;
     padding: 15px 70px;
     background-color: #067664;
     font-size: 20px;
@@ -308,6 +314,7 @@ body {
 }
 
 .wine .box6 a {
+    display: inline-block;
     padding: 15px 70px;
     background-color: #0a98ab;
     font-size: 20px;
@@ -325,6 +332,7 @@ body {
 }
 
 .wine .box7 a {
+    display: inline-block;
     padding: 15px 70px;
     background-color: #4459c5;
     font-size: 20px;
