@@ -223,7 +223,7 @@ body {
 }
 
 .wine .box1 a {
-    display: inline-block;
+    display: initial;
     padding: 15px 70px;
     background-color: #ae2e29;
     font-size: 20px;
